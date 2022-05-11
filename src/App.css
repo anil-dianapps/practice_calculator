@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Calculator {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin: 25px;
+}
+
+.Button{
+  background: #cad2c5;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width:22.5%;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 16%;
+    min-width: 22.5%;
+    margin: 1%;
+    border-radius: 4px;
+    
+}
+
+.Button[data-size="2"] {
+  height: 35%;
+}
+
+.Button:hover {
+  background: #d7ddd3;
+  cursor: default;
+}
+.Display{
+  display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #2b293d;
+    height: 20%;
+    color: #80c9c9;
+    font-size: 24px;
+}
+.Keypad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 80%;
+}
+
+.DisplayHistory{
+  display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #423f63;
+    height:6%;
+    color: #80c9c9;
+    font-size: 12px;
+}
+
